@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CONFIG>
+  <Package Version="5">
+    <Name Value="mungo.textfile"/>
+    <Type Value="RunAndDesignTime"/>
+    <CompilerOptions>
+      <Version Value="11"/>
+      <SearchPaths>
+        <UnitOutputDirectory Value="lib/$(TargetCPU)-$(TargetOS)"/>
+      </SearchPaths>
+    </CompilerOptions>
+    <Files>
+      <Item>
+        <Filename Value="mungo.textfile.sourceeditor.pas"/>
+        <HasRegisterProc Value="True"/>
+        <UnitName Value="mungo.textfile.sourceeditor"/>
+      </Item>
+      <Item>
+        <Filename Value="mungo.textfile.sourcetree.pas"/>
+        <UnitName Value="mungo.textfile.sourcetree"/>
+      </Item>
+      <Item>
+        <Filename Value="mungo.textfile.messages.pas"/>
+        <UnitName Value="mungo.textfile.messages"/>
+      </Item>
+    </Files>
+    <RequiredPkgs>
+      <Item>
+        <PackageName Value="mungo.intf.textfile"/>
+      </Item>
+      <Item>
+        <PackageName Value="mungo.components"/>
+      </Item>
+      <Item>
+        <PackageName Value="SynEdit"/>
+      </Item>
+      <Item>
+        <PackageName Value="mungo.intf"/>
+      </Item>
+      <Item>
+        <PackageName Value="FCL"/>
+      </Item>
+    </RequiredPkgs>
+    <UsageOptions>
+      <UnitPath Value="$(PkgOutDir)"/>
+    </UsageOptions>
+    <PublishOptions>
+      <Version Value="2"/>
+      <UseFileFilters Value="True"/>
+    </PublishOptions>
+  </Package>
+</CONFIG>
